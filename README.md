@@ -18,7 +18,7 @@ the firewall module to the kernel.
 
 The user space :
 
-1.The folder interface contains make file. After writing make at the command shell, writing \a.out + command
+1.The folder interface contains make file. After writing make at the command shell, writing \a.out command
 will run the command specified .
 the commands are : 
 
