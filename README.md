@@ -23,12 +23,19 @@ will run the command specified .
 the commands are : 
 
 activate - activaing the firewall.
-deactivate - deactivating the firewall, 
+
+deactivate - deactivating the firewall
+
 show_rules - show the static firwall rules table.
+
 clear_rules - delete the current rules.
+
 load_rules <path> - loading rules from a txt file to the kernel.
+
 show_log - showing the logs of the firewall.
+
 clear_log <char> - clearing the log table.
+
 show_connection_table- shows the connection table of the Tcp connections.
 
 2.Transparent proxy use to check the contnet of ftp the http data. for Htttp - blocks office file and content length above 2000. for ftp - blocks exe files, and checks the ftp authentication.
