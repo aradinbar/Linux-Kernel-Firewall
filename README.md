@@ -21,6 +21,7 @@ The user space :
 1.The folder interface contains make file. After writing make at the command shell, writing \a.out <command>
 will run the command specified .
 the commands are : 
+
 activate - activaing the firewall.
 deactivate - deactivating the firewall, 
 show_rules - show the static firwall rules table.
@@ -30,8 +31,8 @@ show_log - showing the logs of the firewall.
 clear_log <char> - clearing the log table.
 show_connection_table- shows the connection table of the Tcp connections.
 
-2.Transparent proxy use to check the contnet of ftp the http data. for Htttp - blocks office file and content length above 2000. 
-for ftp - blocks exe files, and checks the ftp authentication.
+2.Transparent proxy use to check the contnet of ftp the http data. for Htttp - blocks office file and content length above 2000. for ftp - blocks exe files, and checks the ftp authentication.
+
 the folder proxy contains two files : proxy_part_1.py and proxy_part_2.py.
 In order to start the proxy going you should open two command shell windows and write :
 In the first window write:
