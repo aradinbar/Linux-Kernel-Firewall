@@ -38,7 +38,7 @@ clear_log <char> - clearing the log table.
 
 show_connection_table- shows the connection table of the Tcp connections.
 
-2.Transparent proxy use to check the contnet of ftp the http data. for Htttp - blocks office file and content length above 2000. for ftp - blocks exe files, and checks the ftp authentication.
+2.Transparent proxy use to check the content of ftp the http data. for Htttp - blocks office file and content length above 2000. for ftp - blocks exe files, and checks the ftp authentication.
 
 the folder proxy contains two files : proxy_part_1.py and proxy_part_2.py.
 In order to start the proxy going you should open two command shell windows and write :
