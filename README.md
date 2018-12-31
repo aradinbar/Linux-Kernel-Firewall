@@ -26,7 +26,7 @@ activate - activaing the firewall.
 
 deactivate - deactivating the firewall
 
-show_rules - show the static firwall rules table.
+show_rules - show the static firewall rules table.
 
 clear_rules - delete the current rules.
 
@@ -40,12 +40,12 @@ show_connection_table- shows the connection table of the Tcp connections.
 
 2.Transparent proxy use to check the content of ftp the http data. for Htttp - blocks office file and content length above 2000. for ftp - blocks exe files, and checks the ftp authentication.
 
-the folder proxy contains two files : proxy_part_1.py and proxy_part_2.py.
-In order to start the proxy going you should open two command shell windows and write :
+The folder proxy contains two files : proxy_part_1.py and proxy_part_2.py.
+In order to start the proxy going, you should open two command shell windows and write :
 In the first window write:
 python proxy_part_1.py
 in the second window write :
 python proxy_part_2.py
-From this point the proxy will be up and listen and redirect, ftp and http packets.
+From this point the proxy will be up, listen and redirect ftp and http packets.
 
 
